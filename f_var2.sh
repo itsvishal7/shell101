@@ -1,0 +1,12 @@
+#!/bin/sh
+echo "My name is $0"
+echo "My real name is `baseline $0`"
+echo "My 1st param.. is $1"
+echo "My 2nd param.. is $2"
+echo "list of all my param.. are $@"
+echo "this is weird $*"
+echo "total number of argumnets that i have are $#"
+echo "last process exit value is $?"
+echo "my pid is $$"
+echo "last process pid was $!"
+echo "IFS is $IFS"
